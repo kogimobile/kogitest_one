@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F8BE38136097BC002C9D3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE37136097BC002C9D3F /* UIKit.framework */; };
+		07F8BE3A136097BC002C9D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE39136097BC002C9D3F /* Foundation.framework */; };
+		07F8BE3C136097BC002C9D3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE3B136097BC002C9D3F /* CoreGraphics.framework */; };
+		07F8BE42136097BD002C9D3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F8BE40136097BD002C9D3F /* InfoPlist.strings */; };
+		07F8BE45136097BD002C9D3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F8BE44136097BD002C9D3F /* main.m */; };
+		07F8BE48136097BD002C9D3F /* kogitest_1149AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F8BE47136097BD002C9D3F /* kogitest_1149AppDelegate.m */; };
+		07F8BE4B136097BD002C9D3F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F8BE49136097BD002C9D3F /* MainWindow.xib */; };
+		07F8BE4E136097BD002C9D3F /* kogitest_1149ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F8BE4D136097BD002C9D3F /* kogitest_1149ViewController.m */; };
+		07F8BE51136097BD002C9D3F /* kogitest_1149ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F8BE4F136097BD002C9D3F /* kogitest_1149ViewController.xib */; };
+		07F8BE58136097BD002C9D3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE37136097BC002C9D3F /* UIKit.framework */; };
+		07F8BE59136097BD002C9D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE39136097BC002C9D3F /* Foundation.framework */; };
+		07F8BE5A136097BD002C9D3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE3B136097BC002C9D3F /* CoreGraphics.framework */; };
+		07F8BE62136097BD002C9D3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07F8BE60136097BD002C9D3F /* InfoPlist.strings */; };
+		07F8BE65136097BD002C9D3F /* kogitest_1149Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = 07F8BE64136097BD002C9D3F /* kogitest_1149Tests.h */; };
+		07F8BE67136097BD002C9D3F /* kogitest_1149Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F8BE66136097BD002C9D3F /* kogitest_1149Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F8BE5B136097BD002C9D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F8BE2A136097BB002C9D3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F8BE32136097BC002C9D3F;
+			remoteInfo = kogitest_1149;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F8BE33136097BC002C9D3F /* kogitest_1149.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kogitest_1149.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F8BE37136097BC002C9D3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07F8BE39136097BC002C9D3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07F8BE3B136097BC002C9D3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07F8BE3F136097BD002C9D3F /* kogitest_1149-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kogitest_1149-Info.plist"; sourceTree = "<group>"; };
+		07F8BE41136097BD002C9D3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F8BE43136097BD002C9D3F /* kogitest_1149-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kogitest_1149-Prefix.pch"; sourceTree = "<group>"; };
+		07F8BE44136097BD002C9D3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07F8BE46136097BD002C9D3F /* kogitest_1149AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kogitest_1149AppDelegate.h; sourceTree = "<group>"; };
+		07F8BE47136097BD002C9D3F /* kogitest_1149AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kogitest_1149AppDelegate.m; sourceTree = "<group>"; };
+		07F8BE4A136097BD002C9D3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		07F8BE4C136097BD002C9D3F /* kogitest_1149ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kogitest_1149ViewController.h; sourceTree = "<group>"; };
+		07F8BE4D136097BD002C9D3F /* kogitest_1149ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kogitest_1149ViewController.m; sourceTree = "<group>"; };
+		07F8BE50136097BD002C9D3F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/kogitest_1149ViewController.xib; sourceTree = "<group>"; };
+		07F8BE57136097BD002C9D3F /* kogitest_1149Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kogitest_1149Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F8BE5F136097BD002C9D3F /* kogitest_1149Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kogitest_1149Tests-Info.plist"; sourceTree = "<group>"; };
+		07F8BE61136097BD002C9D3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07F8BE63136097BD002C9D3F /* kogitest_1149Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kogitest_1149Tests-Prefix.pch"; sourceTree = "<group>"; };
+		07F8BE64136097BD002C9D3F /* kogitest_1149Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = kogitest_1149Tests.h; sourceTree = "<group>"; };
+		07F8BE66136097BD002C9D3F /* kogitest_1149Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kogitest_1149Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F8BE30136097BC002C9D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8BE38136097BC002C9D3F /* UIKit.framework in Frameworks */,
+				07F8BE3A136097BC002C9D3F /* Foundation.framework in Frameworks */,
+				07F8BE3C136097BC002C9D3F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F8BE53136097BD002C9D3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8BE58136097BD002C9D3F /* UIKit.framework in Frameworks */,
+				07F8BE59136097BD002C9D3F /* Foundation.framework in Frameworks */,
+				07F8BE5A136097BD002C9D3F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F8BE28136097BB002C9D3F = {
+			isa = PBXGroup;
+			children = (
+				07F8BE3D136097BC002C9D3F /* kogitest_1149 */,
+				07F8BE5D136097BD002C9D3F /* kogitest_1149Tests */,
+				07F8BE36136097BC002C9D3F /* Frameworks */,
+				07F8BE34136097BC002C9D3F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F8BE34136097BC002C9D3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F8BE33136097BC002C9D3F /* kogitest_1149.app */,
+				07F8BE57136097BD002C9D3F /* kogitest_1149Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F8BE36136097BC002C9D3F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F8BE37136097BC002C9D3F /* UIKit.framework */,
+				07F8BE39136097BC002C9D3F /* Foundation.framework */,
+				07F8BE3B136097BC002C9D3F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07F8BE3D136097BC002C9D3F /* kogitest_1149 */ = {
+			isa = PBXGroup;
+			children = (
+				07F8BE46136097BD002C9D3F /* kogitest_1149AppDelegate.h */,
+				07F8BE47136097BD002C9D3F /* kogitest_1149AppDelegate.m */,
+				07F8BE49136097BD002C9D3F /* MainWindow.xib */,
+				07F8BE4C136097BD002C9D3F /* kogitest_1149ViewController.h */,
+				07F8BE4D136097BD002C9D3F /* kogitest_1149ViewController.m */,
+				07F8BE4F136097BD002C9D3F /* kogitest_1149ViewController.xib */,
+				07F8BE3E136097BD002C9D3F /* Supporting Files */,
+			);
+			path = kogitest_1149;
+			sourceTree = "<group>";
+		};
+		07F8BE3E136097BD002C9D3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F8BE3F136097BD002C9D3F /* kogitest_1149-Info.plist */,
+				07F8BE40136097BD002C9D3F /* InfoPlist.strings */,
+				07F8BE43136097BD002C9D3F /* kogitest_1149-Prefix.pch */,
+				07F8BE44136097BD002C9D3F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F8BE5D136097BD002C9D3F /* kogitest_1149Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07F8BE64136097BD002C9D3F /* kogitest_1149Tests.h */,
+				07F8BE66136097BD002C9D3F /* kogitest_1149Tests.m */,
+				07F8BE5E136097BD002C9D3F /* Supporting Files */,
+			);
+			path = kogitest_1149Tests;
+			sourceTree = "<group>";
+		};
+		07F8BE5E136097BD002C9D3F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F8BE5F136097BD002C9D3F /* kogitest_1149Tests-Info.plist */,
+				07F8BE60136097BD002C9D3F /* InfoPlist.strings */,
+				07F8BE63136097BD002C9D3F /* kogitest_1149Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F8BE32136097BC002C9D3F /* kogitest_1149 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F8BE6A136097BD002C9D3F /* Build configuration list for PBXNativeTarget "kogitest_1149" */;
+			buildPhases = (
+				07F8BE2F136097BC002C9D3F /* Sources */,
+				07F8BE30136097BC002C9D3F /* Frameworks */,
+				07F8BE31136097BC002C9D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kogitest_1149;
+			productName = kogitest_1149;
+			productReference = 07F8BE33136097BC002C9D3F /* kogitest_1149.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F8BE56136097BD002C9D3F /* kogitest_1149Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F8BE6D136097BD002C9D3F /* Build configuration list for PBXNativeTarget "kogitest_1149Tests" */;
+			buildPhases = (
+				07F8BE52136097BD002C9D3F /* Sources */,
+				07F8BE53136097BD002C9D3F /* Frameworks */,
+				07F8BE54136097BD002C9D3F /* Resources */,
+				07F8BE55136097BD002C9D3F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F8BE5C136097BD002C9D3F /* PBXTargetDependency */,
+			);
+			name = kogitest_1149Tests;
+			productName = kogitest_1149Tests;
+			productReference = 07F8BE57136097BD002C9D3F /* kogitest_1149Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F8BE2A136097BB002C9D3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = EAFIT;
+			};
+			buildConfigurationList = 07F8BE2D136097BB002C9D3F /* Build configuration list for PBXProject "kogitest_1149" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07F8BE28136097BB002C9D3F;
+			productRefGroup = 07F8BE34136097BC002C9D3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F8BE32136097BC002C9D3F /* kogitest_1149 */,
+				07F8BE56136097BD002C9D3F /* kogitest_1149Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F8BE31136097BC002C9D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8BE42136097BD002C9D3F /* InfoPlist.strings in Resources */,
+				07F8BE4B136097BD002C9D3F /* MainWindow.xib in Resources */,
+				07F8BE51136097BD002C9D3F /* kogitest_1149ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F8BE54136097BD002C9D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8BE62136097BD002C9D3F /* InfoPlist.strings in Resources */,
+				07F8BE65136097BD002C9D3F /* kogitest_1149Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07F8BE55136097BD002C9D3F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F8BE2F136097BC002C9D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8BE45136097BD002C9D3F /* main.m in Sources */,
+				07F8BE48136097BD002C9D3F /* kogitest_1149AppDelegate.m in Sources */,
+				07F8BE4E136097BD002C9D3F /* kogitest_1149ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F8BE52136097BD002C9D3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F8BE67136097BD002C9D3F /* kogitest_1149Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F8BE5C136097BD002C9D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F8BE32136097BC002C9D3F /* kogitest_1149 */;
+			targetProxy = 07F8BE5B136097BD002C9D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F8BE40136097BD002C9D3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F8BE41136097BD002C9D3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07F8BE49136097BD002C9D3F /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F8BE4A136097BD002C9D3F /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		07F8BE4F136097BD002C9D3F /* kogitest_1149ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F8BE50136097BD002C9D3F /* en */,
+			);
+			name = kogitest_1149ViewController.xib;
+			sourceTree = "<group>";
+		};
+		07F8BE60136097BD002C9D3F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F8BE61136097BD002C9D3F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F8BE68136097BD002C9D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07F8BE69136097BD002C9D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		07F8BE6B136097BD002C9D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kogitest_1149/kogitest_1149-Prefix.pch";
+				INFOPLIST_FILE = "kogitest_1149/kogitest_1149-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07F8BE6C136097BD002C9D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kogitest_1149/kogitest_1149-Prefix.pch";
+				INFOPLIST_FILE = "kogitest_1149/kogitest_1149-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07F8BE6E136097BD002C9D3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kogitest_1149.app/kogitest_1149";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kogitest_1149Tests/kogitest_1149Tests-Prefix.pch";
+				INFOPLIST_FILE = "kogitest_1149Tests/kogitest_1149Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		07F8BE6F136097BD002C9D3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kogitest_1149.app/kogitest_1149";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kogitest_1149Tests/kogitest_1149Tests-Prefix.pch";
+				INFOPLIST_FILE = "kogitest_1149Tests/kogitest_1149Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F8BE2D136097BB002C9D3F /* Build configuration list for PBXProject "kogitest_1149" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F8BE68136097BD002C9D3F /* Debug */,
+				07F8BE69136097BD002C9D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F8BE6A136097BD002C9D3F /* Build configuration list for PBXNativeTarget "kogitest_1149" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F8BE6B136097BD002C9D3F /* Debug */,
+				07F8BE6C136097BD002C9D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F8BE6D136097BD002C9D3F /* Build configuration list for PBXNativeTarget "kogitest_1149Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F8BE6E136097BD002C9D3F /* Debug */,
+				07F8BE6F136097BD002C9D3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07F8BE2A136097BB002C9D3F /* Project object */;
+}
