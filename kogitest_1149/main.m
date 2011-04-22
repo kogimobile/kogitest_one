@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+//1202
 int main(int argc, char *argv[])
 {
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
