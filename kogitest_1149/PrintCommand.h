@@ -11,6 +11,7 @@
 
 @interface PrintCommand : NSObject {
     
+    int a;
 }
 
 -(id) initWithString: (NSString *) s andFloat:(float) f;
