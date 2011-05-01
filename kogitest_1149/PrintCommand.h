@@ -13,4 +13,6 @@
     
 }
 
+-(id) initWithString: (NSString *) s;
+
 @end
