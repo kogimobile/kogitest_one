@@ -11,6 +11,7 @@
 
 @interface PrintCommand : NSObject {
     
+    int a;
 }
 
 @end
