@@ -13,6 +13,6 @@
     
 }
 
--(id) initWithString: (NSString *) s;
+-(id) initWithString: (NSString *) s andFloat:(float) f;
 
 @end
