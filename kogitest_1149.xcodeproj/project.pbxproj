@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07EB2A45136D1177006B2E5D /* PrintCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EB2A44136D1177006B2E5D /* PrintCommand.m */; };
 		07F8BE38136097BC002C9D3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE37136097BC002C9D3F /* UIKit.framework */; };
 		07F8BE3A136097BC002C9D3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE39136097BC002C9D3F /* Foundation.framework */; };
 		07F8BE3C136097BC002C9D3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8BE3B136097BC002C9D3F /* CoreGraphics.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07EB2A43136D1177006B2E5D /* PrintCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintCommand.h; sourceTree = "<group>"; };
+		07EB2A44136D1177006B2E5D /* PrintCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintCommand.m; sourceTree = "<group>"; };
 		07F8BE33136097BC002C9D3F /* kogitest_1149.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kogitest_1149.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F8BE37136097BC002C9D3F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		07F8BE39136097BC002C9D3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +123,8 @@
 				07F8BE4D136097BD002C9D3F /* kogitest_1149ViewController.m */,
 				07F8BE4F136097BD002C9D3F /* kogitest_1149ViewController.xib */,
 				07F8BE3E136097BD002C9D3F /* Supporting Files */,
+				07EB2A43136D1177006B2E5D /* PrintCommand.h */,
+				07EB2A44136D1177006B2E5D /* PrintCommand.m */,
 			);
 			path = kogitest_1149;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 				07F8BE45136097BD002C9D3F /* main.m in Sources */,
 				07F8BE48136097BD002C9D3F /* kogitest_1149AppDelegate.m in Sources */,
 				07F8BE4E136097BD002C9D3F /* kogitest_1149ViewController.m in Sources */,
+				07EB2A45136D1177006B2E5D /* PrintCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +452,7 @@
 				07F8BE6C136097BD002C9D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F8BE6D136097BD002C9D3F /* Build configuration list for PBXNativeTarget "kogitest_1149Tests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +461,7 @@
 				07F8BE6F136097BD002C9D3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
