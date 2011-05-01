@@ -14,4 +14,6 @@
     int a;
 }
 
+-(id) initWithString: (NSString *) s;
+
 @end
