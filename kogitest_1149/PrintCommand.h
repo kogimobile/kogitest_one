@@ -14,6 +14,6 @@
     int a;
 }
 
--(id) initWithString: (NSString *) s andInt: (int)i;
+-(id) initWithString: (NSString *) s andFloat:(float) f;
 
 @end
